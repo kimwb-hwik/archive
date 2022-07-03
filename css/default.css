@@ -191,7 +191,7 @@ input {
   color: inherit;
   vertical-align: middle;
 }
-input:focus{
+input:focus {
   outline: none;
 }
 input[type="file"] {
@@ -205,8 +205,8 @@ input[type="password"],
 input[type="tel"],
 input[type="email"] {
   border: none;
-  -webkit-border-radius:0;
-  -webkit-appearnce:none;
+  -webkit-border-radius: 0;
+  -webkit-appearnce: none;
   appearance: none;
   border-radius: 0;
 }
@@ -259,7 +259,14 @@ a:active {
   color: #000;
   text-decoration: none;
 }
-
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
 .clearfix:after {
   display: block;
   visibility: hidden;
